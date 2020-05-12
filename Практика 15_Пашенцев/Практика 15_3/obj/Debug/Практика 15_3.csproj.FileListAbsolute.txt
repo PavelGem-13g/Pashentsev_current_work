@@ -1,0 +1,10 @@
+C:\Users\Павел\source\repos\Практика 15\Практика 15_3\bin\Debug\Практика 15_3.exe.config
+C:\Users\Павел\source\repos\Практика 15\Практика 15_3\bin\Debug\Практика 15_3.exe
+C:\Users\Павел\source\repos\Практика 15\Практика 15_3\bin\Debug\Практика 15_3.pdb
+C:\Users\Павел\source\repos\Практика 15\Практика 15_3\obj\Debug\Практика 15_3.csprojAssemblyReference.cache
+C:\Users\Павел\source\repos\Практика 15\Практика 15_3\obj\Debug\Практика_15_3.Form1.resources
+C:\Users\Павел\source\repos\Практика 15\Практика 15_3\obj\Debug\Практика_15_3.Properties.Resources.resources
+C:\Users\Павел\source\repos\Практика 15\Практика 15_3\obj\Debug\Практика 15_3.csproj.GenerateResource.cache
+C:\Users\Павел\source\repos\Практика 15\Практика 15_3\obj\Debug\Практика 15_3.csproj.CoreCompileInputs.cache
+C:\Users\Павел\source\repos\Практика 15\Практика 15_3\obj\Debug\Практика 15_3.exe
+C:\Users\Павел\source\repos\Практика 15\Практика 15_3\obj\Debug\Практика 15_3.pdb
