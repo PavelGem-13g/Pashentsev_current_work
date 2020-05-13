@@ -1,0 +1,10 @@
+C:\Users\Павел\source\repos\Практика 15\Практика 15_4\bin\Debug\Практика 15_4.exe.config
+C:\Users\Павел\source\repos\Практика 15\Практика 15_4\bin\Debug\Практика 15_4.exe
+C:\Users\Павел\source\repos\Практика 15\Практика 15_4\bin\Debug\Практика 15_4.pdb
+C:\Users\Павел\source\repos\Практика 15\Практика 15_4\obj\Debug\Практика 15_4.csprojAssemblyReference.cache
+C:\Users\Павел\source\repos\Практика 15\Практика 15_4\obj\Debug\Практика_15_4.Properties.Resources.resources
+C:\Users\Павел\source\repos\Практика 15\Практика 15_4\obj\Debug\Практика 15_4.csproj.GenerateResource.cache
+C:\Users\Павел\source\repos\Практика 15\Практика 15_4\obj\Debug\Практика 15_4.csproj.CoreCompileInputs.cache
+C:\Users\Павел\source\repos\Практика 15\Практика 15_4\obj\Debug\Практика 15_4.exe
+C:\Users\Павел\source\repos\Практика 15\Практика 15_4\obj\Debug\Практика 15_4.pdb
+C:\Users\Павел\source\repos\Практика 15\Практика 15_4\obj\Debug\Практика_15_4.UnHappy.resources
