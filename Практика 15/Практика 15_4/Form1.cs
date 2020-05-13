@@ -32,7 +32,7 @@ namespace Практика_15_4
     }
     public partial class Form1 : Form
     {
-        UnHappy unHappy = new UnHappy();
+        UnHappy unHappy;
         public Form1()
         {
             InitializeComponent();
