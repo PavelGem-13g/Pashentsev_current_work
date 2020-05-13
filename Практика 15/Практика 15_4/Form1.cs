@@ -48,7 +48,7 @@ namespace Практика_15_4
         {
             int a;
             Random random = new Random();
-            if (int.TryParse(textBox.Text, out a)&& 0<=a&&a<10&& unHappy.Attemp >= 0)
+            if (int.TryParse(textBox.Text, out a)&& 0<=a&&a<10&& unHappy.Attemp < 10)
             {//
                 resultText.Location = new Point(resultText.Location.X+14,resultText.Location.Y);
                 if (a == random.Next(0, 10))
