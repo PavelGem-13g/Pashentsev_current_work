@@ -67,5 +67,20 @@ namespace Фоновая_6._1
 
         }
 
+        private void Form1_ResizeEnd(object sender, EventArgs e)
+        {
+            if (B.Location.X+80 > Size.Width) 
+            {
+                B.Location = new Point(Size.Width-80,49);
+            }
+            if (A.Location.X + 140 > Size.Width)
+            {
+                A.Location = new Point(Size.Width - 160, 49);
+            }
+
+
+            //A.Location = new Point(94, 49);
+            //B.Location = new Point(202,49);
+        }
     }
 }

@@ -8,3 +8,13 @@ C:\Users\pashe\source\repos\Простые формы\Фоновая 6.1\obj\Deb
 C:\Users\pashe\source\repos\Простые формы\Фоновая 6.1\obj\Debug\Фоновая 6.1.csproj.CoreCompileInputs.cache
 C:\Users\pashe\source\repos\Простые формы\Фоновая 6.1\obj\Debug\Фоновая 6.1.exe
 C:\Users\pashe\source\repos\Простые формы\Фоновая 6.1\obj\Debug\Фоновая 6.1.pdb
+C:\Users\Павел\Documents\GitHub\current_work\Простые формы\Фоновая 6.1\bin\Debug\Фоновая 6.1.exe.config
+C:\Users\Павел\Documents\GitHub\current_work\Простые формы\Фоновая 6.1\bin\Debug\Фоновая 6.1.exe
+C:\Users\Павел\Documents\GitHub\current_work\Простые формы\Фоновая 6.1\bin\Debug\Фоновая 6.1.pdb
+C:\Users\Павел\Documents\GitHub\current_work\Простые формы\Фоновая 6.1\obj\Debug\Фоновая 6.1.csprojAssemblyReference.cache
+C:\Users\Павел\Documents\GitHub\current_work\Простые формы\Фоновая 6.1\obj\Debug\Фоновая_6._1.Form1.resources
+C:\Users\Павел\Documents\GitHub\current_work\Простые формы\Фоновая 6.1\obj\Debug\Фоновая_6._1.Properties.Resources.resources
+C:\Users\Павел\Documents\GitHub\current_work\Простые формы\Фоновая 6.1\obj\Debug\Фоновая 6.1.csproj.GenerateResource.cache
+C:\Users\Павел\Documents\GitHub\current_work\Простые формы\Фоновая 6.1\obj\Debug\Фоновая 6.1.csproj.CoreCompileInputs.cache
+C:\Users\Павел\Documents\GitHub\current_work\Простые формы\Фоновая 6.1\obj\Debug\Фоновая 6.1.exe
+C:\Users\Павел\Documents\GitHub\current_work\Простые формы\Фоновая 6.1\obj\Debug\Фоновая 6.1.pdb
