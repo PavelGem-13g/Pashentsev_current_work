@@ -21,7 +21,7 @@ namespace Фоновая_6._1
                 //..\Music\Directory.GetCurrentDirectory() + "\\s.wav";
                 //soundPlayer.Load();
             //}
-            delta = 5;
+            delta = 20;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -72,13 +72,13 @@ namespace Фоновая_6._1
 
         private void Form1_ResizeEnd(object sender, EventArgs e)
         {
-            if (B.Location.X+ B.Size.Width+20 > Size.Width) 
+            if (B.Location.X+ B.Size.Width+15 > Size.Width) 
             {
-                B.Location = new Point(Size.Width-B.Size.Width-5,49);
+                B.Location = new Point(Size.Width-B.Size.Width-15,49);
             }
             if (A.Location.X + A.Size.Width + B.Size.Width + 40 > Size.Width)
             {
-                A.Location = new Point(Size.Width - B.Size.Width-A.Size.Width - 10, 49);
+                A.Location = new Point(Size.Width - B.Size.Width-A.Size.Width - 40, 49);
             }
 
 
