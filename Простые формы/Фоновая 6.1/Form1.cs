@@ -36,8 +36,8 @@ namespace Фоновая_6._1
 
         private void A_Click(object sender, EventArgs e)
         {
-            if (B.Location.X - A.Location.X-A.Size.Width-B.Size.Width >= -60)
-            {
+            if (B.Location.X- B.Size.Width - A.Location.X >= 0)
+            {//-A.Size.Width
                 B.Location = new Point(B.Location.X - delta, B.Location.Y);
                 A.Location = new Point(A.Location.X + delta, A.Location.Y);
                 ColorCanger();
@@ -56,8 +56,8 @@ namespace Фоновая_6._1
                 if(A.Size.Width>normalAWidth)A.Size = new Size(A.Size.Width - 1, A.Size.Height - 1);
                
             }
-            if (B.Location.X < Size.Width - B.Size.Width-20)
-            {
+            if (B.Location.X+B.Size.Width   < Size.Width-20 )
+            {//B.Size.Width- 20
                 B.Location = new Point(B.Location.X + delta, B.Location.Y);
                 ColorCanger();
 
