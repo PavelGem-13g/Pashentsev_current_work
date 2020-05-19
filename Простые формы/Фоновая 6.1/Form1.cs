@@ -12,16 +12,21 @@ namespace Фоновая_6._1
         Random random = new Random();
         SoundPlayer soundPlayer = new SoundPlayer();
         int delta;
+        int normalAWidth;
+        int normalBWidth;
+
         public Form1()
         {
             InitializeComponent();
             //if (File.Exists(Directory.GetCurrentDirectory() + "\\s.wav"))
             //{
                 soundPlayer.Stream = Properties.Resources.s;
-                //..\Music\Directory.GetCurrentDirectory() + "\\s.wav";
-                //soundPlayer.Load();
+            //..\Music\Directory.GetCurrentDirectory() + "\\s.wav";
+            //soundPlayer.Load();
             //}
-            delta = 20;
+            normalAWidth = A.Size.Width;
+            normalBWidth = B.Size.Width;
+            delta = 5;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -31,27 +36,32 @@ namespace Фоновая_6._1
 
         private void A_Click(object sender, EventArgs e)
         {
-            if (B.Location.X - A.Location.X >= 65)
+            if (B.Location.X - A.Location.X-A.Size.Width-B.Size.Width >= -60)
             {
                 B.Location = new Point(B.Location.X - delta, B.Location.Y);
                 A.Location = new Point(A.Location.X + delta, A.Location.Y);
                 ColorCanger();
-
+                A.Size = new Size(A.Size.Width+1, A.Size.Height + 1);
+                B.Size = new Size(B.Size.Width + 1, B.Size.Height + 1);
             }
 
         }
 
         private void B_Click(object sender, EventArgs e)
         {
-            if (A.Location.X > 5)
+            if (A.Location.X > 0)
             {
                 A.Location = new Point(A.Location.X - delta, A.Location.Y);
                 ColorCanger();
+                if(A.Size.Width>normalAWidth)A.Size = new Size(A.Size.Width - 1, A.Size.Height - 1);
+               
             }
-            if (B.Location.X < Size.Width - 80)
+            if (B.Location.X < Size.Width - B.Size.Width-20)
             {
                 B.Location = new Point(B.Location.X + delta, B.Location.Y);
                 ColorCanger();
+
+                if (B.Size.Width > normalBWidth) B.Size = new Size(B.Size.Width - 1, B.Size.Height - 1);
             }
         }
         void ColorCanger()
@@ -59,6 +69,9 @@ namespace Фоновая_6._1
             A.BackColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
             B.BackColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
             BackColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
+            A.ForeColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
+            B.ForeColor = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
+
             //if (File.Exists(Directory.GetCurrentDirectory() + "\\s.wav"))
             //{
             ///SystemSounds.Beep.Play();
