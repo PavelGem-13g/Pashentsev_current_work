@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.IO;
 using System.Media;
 using System.Windows.Forms;
 
@@ -20,7 +19,7 @@ namespace Фоновая_6._1
             InitializeComponent();
             //if (File.Exists(Directory.GetCurrentDirectory() + "\\s.wav"))
             //{
-                soundPlayer.Stream = Properties.Resources.s;
+            soundPlayer.Stream = Properties.Resources.s;
             //..\Music\Directory.GetCurrentDirectory() + "\\s.wav";
             //soundPlayer.Load();
             //}
@@ -36,12 +35,12 @@ namespace Фоновая_6._1
 
         private void A_Click(object sender, EventArgs e)
         {
-            if (B.Location.X- B.Size.Width - A.Location.X >= 0)
+            if (B.Location.X - B.Size.Width - A.Location.X >= 0)
             {//-A.Size.Width
                 B.Location = new Point(B.Location.X - delta, B.Location.Y);
                 A.Location = new Point(A.Location.X + delta, A.Location.Y);
                 ColorCanger();
-                A.Size = new Size(A.Size.Width+1, A.Size.Height + 1);
+                A.Size = new Size(A.Size.Width + 1, A.Size.Height + 1);
                 B.Size = new Size(B.Size.Width + 1, B.Size.Height + 1);
             }
 
@@ -53,10 +52,10 @@ namespace Фоновая_6._1
             {
                 A.Location = new Point(A.Location.X - delta, A.Location.Y);
                 ColorCanger();
-                if(A.Size.Width>normalAWidth)A.Size = new Size(A.Size.Width - 1, A.Size.Height - 1);
-               
+                if (A.Size.Width > normalAWidth) A.Size = new Size(A.Size.Width - 1, A.Size.Height - 1);
+
             }
-            if (B.Location.X+B.Size.Width   < Size.Width-20 )
+            if (B.Location.X + B.Size.Width < Size.Width - 20)
             {//B.Size.Width- 20
                 B.Location = new Point(B.Location.X + delta, B.Location.Y);
                 ColorCanger();
@@ -83,15 +82,17 @@ namespace Фоновая_6._1
 
         }
 
+
+
         private void Form1_ResizeEnd(object sender, EventArgs e)
         {
-            if (B.Location.X+ B.Size.Width+15 > Size.Width) 
+            if (B.Location.X + B.Size.Width + 15 > Size.Width)
             {
-                B.Location = new Point(Size.Width-B.Size.Width-15,49);
+                B.Location = new Point(Size.Width - B.Size.Width - 15, 49);
             }
             if (A.Location.X + A.Size.Width + B.Size.Width + 40 > Size.Width)
             {
-                A.Location = new Point(Size.Width - B.Size.Width-A.Size.Width - 40, 49);
+                A.Location = new Point(Size.Width - B.Size.Width - A.Size.Width - 40, 49);
             }
 
 

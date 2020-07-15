@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.Do = new System.Windows.Forms.Button();
             this.binarCode = new System.Windows.Forms.TextBox();
@@ -46,7 +47,9 @@
             // 
             // splitContainer1
             // 
+            this.splitContainer1.BackColor = System.Drawing.Color.Yellow;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             // 
@@ -68,6 +71,8 @@
             // 
             // Do
             // 
+            this.Do.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Do.Location = new System.Drawing.Point(28, 12);
             this.Do.Name = "Do";
             this.Do.Size = new System.Drawing.Size(120, 23);
@@ -78,6 +83,9 @@
             // 
             // binarCode
             // 
+            this.binarCode.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.binarCode.Location = new System.Drawing.Point(28, 60);
             this.binarCode.Name = "binarCode";
             this.binarCode.Size = new System.Drawing.Size(120, 20);
@@ -89,6 +97,9 @@
             // 
             // groupBox
             // 
+            this.groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox.Controls.Add(this._16);
             this.groupBox.Controls.Add(this._10);
             this.groupBox.Controls.Add(this._8);
@@ -135,6 +146,8 @@
             // 
             // Exit
             // 
+            this.Exit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Exit.Location = new System.Drawing.Point(30, 12);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(120, 23);
@@ -145,6 +158,9 @@
             // 
             // result
             // 
+            this.result.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.result.Location = new System.Drawing.Point(30, 60);
             this.result.Name = "result";
             this.result.ReadOnly = true;
@@ -158,6 +174,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(396, 226);
             this.Controls.Add(this.splitContainer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(412, 265);

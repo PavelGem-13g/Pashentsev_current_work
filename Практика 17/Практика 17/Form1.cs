@@ -90,8 +90,12 @@ namespace Практика_17
 
         private void BinarCode_KeyDown(object sender, KeyEventArgs e)
         {
-/*            if (binarCode.Text.Length == 0) binarCode.Text = "0";
-            if (binarCode.Text.Length > 10) binarCode.Text = binarCode.Text.Remove(binarCode.Text.Length - 1, 1);*/
+            /*            if (binarCode.Text.Length == 0) binarCode.Text = "0";
+                        if (binarCode.Text.Length > 10) binarCode.Text = binarCode.Text.Remove(binarCode.Text.Length - 1, 1);*/
+            if (!(e.KeyCode == Keys.D1 || e.KeyCode == Keys.NumPad1 || e.KeyCode == Keys.D0 || e.KeyCode == Keys.NumPad0 || e.KeyCode == Keys.Right || e.KeyCode == Keys.Left || e.KeyCode == Keys.Up || e.KeyCode == Keys.Down || e.KeyCode == Keys.Back))
+            {
+                e.SuppressKeyPress = true;
+            }
             Voider();
         }
     }
